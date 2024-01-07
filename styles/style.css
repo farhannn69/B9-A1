@@ -1,0 +1,112 @@
+body {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.hny-party {
+    background-image: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0) 100%), url("../images/Banner Image.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    font-family: Merriweather;
+    margin-top: 50px;
+}
+
+.hny-party .hny {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+.hny-party .nyp {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.off-hny {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.off-hny h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.off-hny .deals {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.off-hny .cat {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.midnight {
+    display: flex;
+    margin-top: 120px;
+    background-image: linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0) 100%), url("../images/Vectorrr.png");
+    border-radius: 16px;
+    min-height: 600px;
+    align-items: center;
+}
+
+.mid-party {
+    max-width: 700px;
+    padding-left: 126px;
+}
+
+.mid-party h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-bottom: 0px;
+}
+
+.mid-party p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.join-btn {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    padding: 15px 20px;
+    margin-top: 30px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+
+.join-btn:hover {
+    background-color: #f39a14;
+    color: black;
+}
+
+.year {
+    margin-left: 39px;
+} 
