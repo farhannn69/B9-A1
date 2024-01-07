@@ -109,4 +109,119 @@ body {
 
 .year {
     margin-left: 39px;
-} 
+}
+
+/* place */
+
+.place {
+    background: linear-gradient(180deg, rgb(255, 210, 210) 0%, rgba(255, 255, 255, 1) 100%);
+    border-radius: 16px;
+    min-height: 482px;
+    margin-top: 120px;
+
+}
+
+.place-text {
+    padding-top: 100px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.place-text h6 {
+    margin: 20px;
+}
+
+.place span {
+    color: #F00;
+}
+
+.join-btn2 {
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: #F00;
+    padding: 16px 32px;
+    margin-top: 48px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    margin-left: 576px;
+
+}
+
+.join-btn2:hover {
+    background-color: transparent;
+    color: #F00;
+}
+
+/* newsletter */
+
+.newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    min-height: 616px;
+    margin-top: 120px;
+    text-align: center;
+    padding: 0 212px;
+}
+
+.newsletter img {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    min-width: 150px;
+}
+
+.newsletter h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.newsletter p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.newsletter input {
+    font-size: 18px;
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+.newsletter input[type="text"] {
+    background-color: #FFF;
+    border-radius: 50px 0 0 50px;
+    width: 420px;
+    height: 65px;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+}
+
+.newsletter input[type="submit"] {
+    background-color: #F00;
+    border-radius: 0 50px 50px 0;
+    margin-left: -5px;
+    color: white;
+    width: 180px;
+    height: 65px;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    transition-duration: 0.3s;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: #FFF;
+    color: #F00;
+}
