@@ -29,6 +29,8 @@ main {
     margin-top: 0px;
 }
 
+/* 65% off */
+
 .off-hny {
     margin-top: 120px;
     text-align: center;
@@ -57,6 +59,8 @@ main {
     font-weight: 700;
     margin-top: 0px;
 }
+
+/* Midnight Party */
 
 .midnight {
     display: flex;
@@ -89,6 +93,8 @@ main {
     margin-top: 24px;
 }
 
+/* place */
+
 .join-btn {
     color: #FFFFFF;
     text-align: center;
@@ -111,8 +117,6 @@ main {
 .year {
     margin-left: 39px;
 }
-
-/* place */
 
 .place {
     background: linear-gradient(180deg, rgb(255, 210, 210) 0%, rgba(255, 255, 255, 1) 100%);
@@ -169,10 +173,12 @@ main {
 .coming-first {
     max-width: 400px;
     margin-right: 60px;
-    margin-top: 80px 
+    margin-top: 80px
 }
 
-.coming-first h6, .port-text h6 {
+.coming-first h6,
+.port-text h6,
+.holiday-text h6 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -180,7 +186,8 @@ main {
     margin-bottom: 0px;
 }
 
-.coming-first h2, .port-text h2 {
+.coming-first h2,
+.port-text h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -190,8 +197,9 @@ main {
 }
 
 .coming-first p,
-.coming-last p ,
-.port-text p{
+.coming-last p,
+.port-text p,
+.holiday-text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -220,6 +228,56 @@ main {
     margin-bottom: 0px;
 }
 
+/* Holiday Sale */
+
+.holiday-text {
+    text-align: center;
+    margin-top: 120px;
+}
+
+#h-h6 {
+    color: #070211;
+}
+
+.holiday-text h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+#h-h1 {
+    color: #F00;
+}
+
+#h-p {
+    margin: 0 140px 64px;
+}
+
+.holiday-img {
+    position: relative;  
+    text-align: right;
+}
+
+.holiday-img .inner-image {
+    position: absolute;
+    top: 70px;
+    right: 300px;
+}
+
+.holiday-red {
+    position: relative;
+    margin-top: -4px;
+}
+
+.holiday-red .inner-image {
+    position: absolute;
+    top: -320px;
+    left: 60px;
+    width: 600px;
+}
+
 /* Portfolio */
 
 .port-text {
@@ -241,7 +299,7 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.port-pics img:hover{
+.port-pics img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     transform: translateY(-10px);
 }
