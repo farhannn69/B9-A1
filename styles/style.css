@@ -429,6 +429,7 @@ hr {
 
 .footer-second img {
     display: inline-flex;
+    margin: 0 10px;
 }
 
 .footer-last {
